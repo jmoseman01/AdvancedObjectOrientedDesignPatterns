@@ -1,0 +1,145 @@
+====== Robert Martin. (2003). The Principles of OOD. ======
+Created Thursday 25 May 2017
+
+===== Instructions =====
+* bold core concept and write the answer below
+* if there is hierarchy of core concepts show them with an unordered list
+
+===== What is a common mistake of developers when choosing a language? =====
+* **ODD principles**
+	* **language choice problems**
+--------------------
+
+They don't know why they're choosing the language
+They don't know how to get the most benefit of the language
+
+===== What two displins have modern languages been influenced by? =====
+* **ODD principles**
+	* **programming displines**
+--------------------
+
+
+* Structured Programming
+* Object Oriented Programming
+
+===== Give an example of how the structured programming disipline has effected modern programming languages? =====
+* **ODD principles**
+	* **programming displines**
+		* **structured programming disipline**
+--------------------
+
+
+* We don't use goto statements anymore
+
+===== How has the object oriented programming disipline effected modern programming languages? =====
+**ODD principles - programming displines - object oriented programming disipline**
+--------------------
+
+* most mainstream languages are class based they don't usually support functions and variables that aren't in a class anymore.
+
+===== What are the problems that arise from poor dependency management (Aspect of OOD)? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **dependency management**
+--------------------
+
+
+* the code is
+	* hard to change
+	* fragile
+	* not reusable
+
+===== What are the benefits of doing a good job of dependency management? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **dependency management**
+--------------------
+
+
+* flexible and reusable code
+
+===== What are the 5 class design principles? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+--------------------
+
+* The Single Responsiblity Principle
+* The Open Closed Principle
+* The Liskov Substitution Principle
+* The Interface Segregation Principle
+* The Dependency Inversion Principle
+
+===== What is The Single Responsiblity Principle? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+				* **Single Responsibility Principle**
+--------------------
+
+===== What is The Open Closed Principle? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+				* **Open Closed Principle**
+--------------------
+
+
+===== What is The Liskov Substitution Principle? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+				* **Liskov Substitution Principle**
+--------------------
+
+
+===== What is The Interface Segragation Principle? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+				* **Interface Segragation Principle**
+--------------------
+
+
+===== What is The Dependency Inversion Principle? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **class design principles**
+				* **Dependency Inversion Principle**
+
+===== What are packages? =====
+* **ODD principles**
+	* **programming displines**
+		* **object oriented programming disipline**
+			* **principles of packages**
+--------------------
+* artifacts
+	* .jar files
+
+===== What are the two main principles relating to the principles of packages? =====
+* Cohesion Principles
+* Coupling Between Packages
+
+===== What are the 6 principles about packages? =====
+* Cohesion Principles
+	* The Release Reuse Equivalency Principle
+	* The Common Closure Principle
+	* The Common Reuse Principle
+* Coupeling Between packages
+	* The Acyclic Dependencies Principle
+	* The Stable Dependencies Principle
+	* The Stable Abstractions Principle
+
+===== List the principles of packages and their definitions? =====
+
+
+
+

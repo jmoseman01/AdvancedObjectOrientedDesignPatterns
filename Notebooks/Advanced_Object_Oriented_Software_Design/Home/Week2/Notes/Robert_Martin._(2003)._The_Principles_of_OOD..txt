@@ -1,0 +1,56 @@
+====== Robert Martin. (2003). The Principles of OOD. ======
+Created Thursday 25 May 2017
+
+* What is object oriented design?
+* What are it's benefits?
+* What are the costs?
+
+* interesting note
+	* we use object oriented languages without knowing why, and without knowing how to get the most benefit out of them
+
+
+====== 2 revolutions - we take for granted ======
+* Modern languages have been influenced by these two disiplines
+	* structured programming
+		* we don't use goto statements anymore
+	* object oriented programming
+		* most mainstream languages are class based
+			* don't support functions or variables that aren't in a class
+
+
+* a set of principles for OOD
+	* depedency management aspects of OOD
+		* problems of poor depedency management
+			* leads to code that is hard to change, fragile, and non-reusable
+		* well manged depdency management
+			* flexible/reusable code
+
+====== Class Design Principles ======
+* The Single Responsiblity Principle
+	* A class should have one, and only, reason to change
+* The Open Closed Principle
+	* You should be able to extend a classes behavior, without modifying it.
+* The Liskov Substitution Principle
+	* Derived classes must be substitutable for their base classes
+* The Interface Segregation Principle
+	* Make fine grained interfaces that are client specific
+* The Dependency Inversion Principle
+	* Depend on abstractions not on concentrations
+
+====== 6 principles about packages (artifacts - .jar) ======
+
+===== Cohesion Principles =====
+* The Release Reuse Equivalency Principle
+	* The granule of reuse is the granule of release.
+* The Common Closure Principle
+	* Classes that change together are packaged together
+* The Common Reuse Principle
+	* Classes that are used together are packaged together.
+
+===== Coupling between packages (artifacts - .jar) - there are metrics to evaluate the package structure =====
+	* The Acyclic Dependencies Principle
+		* The depdency graph of packages must have no cycles.
+	* The Stable Dependencies Principles
+		* Depend in the direction of stability
+	* The Stable Abstractions Principle
+		* Abstractness increases with stability 

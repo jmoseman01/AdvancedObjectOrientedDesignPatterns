@@ -1,0 +1,24 @@
+====== Shape Implementation ======
+Created Wednesday 31 May 2017
+
+* procedure
+	* created
+		* three shapes and an interface shape with a draw method
+			* shapes
+				* circle
+				* square
+				* rectangle
+			* interface
+				* shape interface
+		* factory
+			* the factory took in a string argument inside a method called get shape to construct a shape
+		* A main class
+			* this had a main method that constructed the shape based on the shape type parameter string and executed the draw method.
+* learning procedure
+	* some copy paste
+		* the code I copied and pasted I commented then deleted and implemented it myself
+	* after I did that I then implmented the whole project from scratch
+
+
+
+* Note the interface is important so that the factory's get shape method can construct any three of the shapes

@@ -1,0 +1,15 @@
+====== Quiz ======
+Created Wednesday 31 May 2017
+
+Implement a simple maven project using the factory design pattern.
+
+Create an interface called shape with the method draw.  The draw method will print out a string that says what shape you're running.
+
+Create the following shapes
+* Square
+* Circle
+* Rectangle
+
+
+
+Create a main class that constructs all three shapes and run the draw method on all of them.

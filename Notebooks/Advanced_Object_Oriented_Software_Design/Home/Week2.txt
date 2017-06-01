@@ -1,0 +1,6 @@
+====== Week2 ======
+Created Thursday 25 May 2017
+
+* Todo
+	* Overview of Design Patterns
+	* Learning Design Patterns At Least a weeks worth
