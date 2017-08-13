@@ -8,5 +8,11 @@ public class Bottle implements Packing {
 	public String pack() {
 		return "pack bottle";
 	}
+	
+	@Override
+	public String toString()
+	{
+		return "Bottle";
+	}
 
 }

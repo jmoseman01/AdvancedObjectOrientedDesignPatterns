@@ -9,4 +9,10 @@ public class Wrapper implements Packing {
 		return "pack wrapper";
 	}
 
+	@Override
+	public String toString()
+	{
+		return "Wrapper";
+	}
+
 }
