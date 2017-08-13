@@ -1,3 +1,4 @@
+package com.ood.interfaces;
 
 public interface Item {
 	public String name();
