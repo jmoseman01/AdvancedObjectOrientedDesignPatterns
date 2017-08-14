@@ -1,5 +1,6 @@
 package com.ood.builder.main;
 
+import com.ood.builder.meal.Meal;
 import com.ood.builder.meal.MealBuilder;
 
 public class Main {
