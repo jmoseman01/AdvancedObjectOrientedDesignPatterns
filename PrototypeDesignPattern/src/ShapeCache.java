@@ -31,6 +31,6 @@ public class ShapeCache {
 		   //load rectangle in cache
 		   Rectangle rectangle = new Rectangle();
 		   rectangle.setId("3");
-		   shapeMap.put(rectangle.getId(), circle);
+		   shapeMap.put(rectangle.getId(), rectangle);
 	   }
 }
