@@ -1,19 +1,36 @@
 package com.ood.audioplayer;
 
 import com.ood.advancedmediaplayer.AdvancedMediaPlayer;
+import com.ood.advancedmediaplayer.Mp4Player;
+import com.ood.advancedmediaplayer.VlcPlayer;
 
 public class MediaAdapter implements MediaPlayer {
 	
 	private AdvancedMediaPlayer advancedMediaPlayer;
 
-	public void MediaAdapter() 
-	{
-		
+	public MediaAdapter(String audioType) {
+		if(audioType.equalsIgnoreCase("vlc")) 
+		{
+			advancedMediaPlayer = new VlcPlayer();
+		}
+		else if(audioType.equalsIgnoreCase("mp4")) 
+		{
+			advancedMediaPlayer = new Mp4Player();
+		}
 	}
-	@Override
-	public void play() {
-		// TODO Auto-generated method stub
 
+	@Override
+	public void play(String audioType, String fileName) throws Exception {
+		if(audioType.equalsIgnoreCase("vlc")) 
+		{
+			advancedMediaPlayer.playVlc(fileName);
+		}
+		else if(audioType.equalsIgnoreCase("mp4")) 
+		{
+			advancedMediaPlayer.playMp4(fileName);
+		}
+
+		
 	}
 
 }

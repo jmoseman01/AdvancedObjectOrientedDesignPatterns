@@ -1,6 +1,6 @@
 package com.ood.advancedmediaplayer;
 
 public interface AdvancedMediaPlayer {
-	public void playVlc();
-	public void playMp4();
+	public void playVlc(String filename) throws Exception;
+	public void playMp4(String filename) throws Exception;
 }

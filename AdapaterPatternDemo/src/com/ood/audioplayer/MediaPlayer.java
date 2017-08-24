@@ -1,5 +1,5 @@
 package com.ood.audioplayer;
 
 public interface MediaPlayer {
-	public void play();
+	void play(String audioType, String filename) throws Exception;
 }
