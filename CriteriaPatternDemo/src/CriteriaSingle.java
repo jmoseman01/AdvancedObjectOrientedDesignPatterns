@@ -1,20 +1,20 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CriteraMale implements Criteria {
+public class CriteriaSingle implements Criteria {
 
 	@Override
 	public List<Person> meetCriteria(List<Person> persons) {
 		// TODO Auto-generated method stub
-		List<Person> malePersons = new ArrayList<Person>();
+		List<Person> singlePersons = new ArrayList<Person>();
 		for(Person person: persons)
 		{
-			if(person.getGender().equalsIgnoreCase("Male"))
+			if(person.getMaritalStatus().equalsIgnoreCase("single"))
 			{
-				malePersons.add(person);
+				singlePersons.add(person);
 			}
 		}
-		return malePersons;
+		return singlePersons;
 	}
 
 }
