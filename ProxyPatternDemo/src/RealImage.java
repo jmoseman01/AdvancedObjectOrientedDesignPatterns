@@ -2,6 +2,10 @@ public class RealImage implements Image {
 
    private String fileName;
 
+   /**
+    * load the file name from disk
+    * @param fileName
+    */
    public RealImage(String fileName){
       this.fileName = fileName;
       loadFromDisk(fileName);
