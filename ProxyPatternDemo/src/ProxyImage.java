@@ -7,6 +7,10 @@ public class ProxyImage implements Image{
       this.fileName = fileName;
    }
 
+   /**
+    * construct real image if it's not in memory
+    * then call display
+    */
    @Override
    public void display() {
       if(realImage == null){
