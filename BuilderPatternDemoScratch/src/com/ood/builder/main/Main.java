@@ -18,7 +18,7 @@ public class Main {
 		//create chickenburger/pepsi
 		Meal nonVegMeal=mealBuilder.prepareNonVegMeal();
 		//traverse veg meal
-		NonvegMeal.showItems();
+		nonVegMeal.showItems();
 	}
 
 }

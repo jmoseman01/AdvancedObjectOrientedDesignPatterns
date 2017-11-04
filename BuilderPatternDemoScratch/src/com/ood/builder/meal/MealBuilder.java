@@ -1,6 +1,9 @@
 package com.ood.builder.meal;
 
-import com.ood.builder.main.Meal;
+import com.ood.builder.meal.burger.ChickenBurger;
+import com.ood.builder.meal.burger.VegBurger;
+import com.ood.builder.meal.drink.Coke;
+import com.ood.builder.meal.drink.Pepsi;
 
 public class MealBuilder {
 
@@ -8,7 +11,7 @@ public class MealBuilder {
 		// TODO Auto-generated method stub
 		Meal meal = new Meal();
 		meal.addItem(new VegBurger());
-		meal.addItem(new Coke);
+		meal.addItem(new Coke());
 		return meal;
 	}
 

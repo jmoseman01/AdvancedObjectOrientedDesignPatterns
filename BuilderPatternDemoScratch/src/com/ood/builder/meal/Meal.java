@@ -2,6 +2,8 @@ package com.ood.builder.meal;
 
 import java.util.ArrayList;
 
+import com.ood.builder.meal.burger.VegBurger;
+
 public class Meal {
 	public ArrayList<Item> items = new ArrayList<Item>();
 
@@ -13,6 +15,10 @@ public class Meal {
 			System.out.printf("Price:  %f\n",item.price());
 		}
 		
+	}
+
+	public void addItem(Item item) {
+		items.add(item);
 	}
 
 }
