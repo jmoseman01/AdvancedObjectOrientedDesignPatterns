@@ -1,5 +1,7 @@
 package com.ood.mediaplayer.main;
 
+import com.ood.audioplayer.MediaAdapter;
+
 public class AudioPlayer implements MediaPlayer {
 
 	@Override
