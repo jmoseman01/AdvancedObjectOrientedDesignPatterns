@@ -24,7 +24,7 @@ public class StudentDaoImpl implements StudentDao {
 	@Override
 	public void updateStudent(Student student) {
 		students.get(student.getRollNo()).setName(student.getName());
-		System.out.println("Student:\tRoll No\t"+student.getRollNo()+"update in the database");
+		System.out.println("Student:\tRoll No\t"+student.getRollNo()+"\tupdate in the database");
 	}
 
 	@Override
